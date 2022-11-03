@@ -13,7 +13,7 @@ function Contact() {
         <div
           className="leftSide"
           style={{
-            backgroundImage: `url("/images/homepage/social-events-desktop.jpg")`,
+            backgroundImage: `url("process.env.PUBLIC_URL + /images/homepage/social-events-desktop.jpg")`,
           }}
         ></div>
         <div className="rightSide">

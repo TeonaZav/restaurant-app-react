@@ -18,7 +18,7 @@ function Home() {
         <div
           className="home-top"
           style={{
-            backgroundImage: `url("./images/homepage/hero-bg-desktop@2x.jpg")`,
+            backgroundImage: `url("process.env.PUBLIC_URL + /images/homepage/hero-bg-desktop@2x.jpg")`,
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundAttachment: "fixed",
