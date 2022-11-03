@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "d42bf935f5f208ffbdfb",
+    "revision": "fd8f45915ac94cb6dbea",
     "url": "/restaurant-app-react/static/css/main.895d7fd5.chunk.css"
   },
   {
-    "revision": "d42bf935f5f208ffbdfb",
-    "url": "/restaurant-app-react/static/js/main.d42bf935.chunk.js"
+    "revision": "fd8f45915ac94cb6dbea",
+    "url": "/restaurant-app-react/static/js/main.fd8f4591.chunk.js"
   },
   {
     "revision": "1210c2a3386a929d2ba5",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/restaurant-app-react/static/media/khinkali.4cfd371d.jpg"
   },
   {
-    "revision": "555a737696504f089533d9758147ecf7",
+    "revision": "4bf664f01e0eb81857fb686e992278e3",
     "url": "/restaurant-app-react/index.html"
   }
 ];
