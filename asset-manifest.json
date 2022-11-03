@@ -1,7 +1,7 @@
 {
   "main.css": "/restaurant-app-react/static/css/main.58d6982c.chunk.css",
-  "main.js": "/restaurant-app-react/static/js/main.4165f37e.chunk.js",
-  "main.js.map": "/restaurant-app-react/static/js/main.4165f37e.chunk.js.map",
+  "main.js": "/restaurant-app-react/static/js/main.84a024d4.chunk.js",
+  "main.js.map": "/restaurant-app-react/static/js/main.84a024d4.chunk.js.map",
   "static/js/1.23bd05b3.chunk.js": "/restaurant-app-react/static/js/1.23bd05b3.chunk.js",
   "static/js/1.23bd05b3.chunk.js.map": "/restaurant-app-react/static/js/1.23bd05b3.chunk.js.map",
   "runtime~main.js": "/restaurant-app-react/static/js/runtime~main.2c764034.js",
@@ -14,6 +14,6 @@
   "static/media/khinkali.jpg": "/restaurant-app-react/static/media/khinkali.4cfd371d.jpg",
   "static/css/main.58d6982c.chunk.css.map": "/restaurant-app-react/static/css/main.58d6982c.chunk.css.map",
   "index.html": "/restaurant-app-react/index.html",
-  "precache-manifest.11691c3856e3f2d01188aeaec7d8e4b0.js": "/restaurant-app-react/precache-manifest.11691c3856e3f2d01188aeaec7d8e4b0.js",
+  "precache-manifest.c85d7d3014920a8276bc8d78c548b08e.js": "/restaurant-app-react/precache-manifest.c85d7d3014920a8276bc8d78c548b08e.js",
   "service-worker.js": "/restaurant-app-react/service-worker.js"
 }
