@@ -1,7 +1,8 @@
 import React from "react";
+import "../styles/Menu.css";
 import { MenuList } from "../helpers/MenuList";
 import MenuItem from "../components/MenuItem";
-import "../styles/Menu.css";
+import Navbar from "../components/Navbar";
 import FooterBottom from "../components/FooterBottom";
 import { motion } from "framer-motion/dist/framer-motion";
 function Menu() {
@@ -11,6 +12,7 @@ function Menu() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.3 } }}
     >
+      <Navbar />
       <div className="menu">
         <h1 className="heading-secondary">Most Popular</h1>
         <div className="menuList">

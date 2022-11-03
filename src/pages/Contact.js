@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Contact.css";
-import FooterBottom from "../components/FooterBottom";
+import Navbar from "../components/Navbar";
 import { motion } from "framer-motion/dist/framer-motion";
 function Contact() {
   return (
@@ -9,11 +9,12 @@ function Contact() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.3 } }}
     >
+      <Navbar />
       <div className="contact">
         <div
           className="leftSide"
           style={{
-            backgroundImage: `url("process.env.PUBLIC_URL + /images/homepage/social-events-desktop.jpg")`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}"/images/homepage/social-events-desktop.jpg")`,
           }}
         ></div>
         <div className="rightSide">

@@ -6,7 +6,9 @@ import Highlights from "../components/Highlights";
 import MainTextbox from "../components/MainTextbox";
 import Events from "../components/Events";
 import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
 import { motion } from "framer-motion/dist/framer-motion";
+
 function Home() {
   return (
     <motion.div
@@ -14,11 +16,13 @@ function Home() {
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, transition: { duration: 0.3 } }}
     >
+      <Navbar />
       <div className="home">
         <div
           className="home-top"
           style={{
-            backgroundImage: `url("process.env.PUBLIC_URL + /images/homepage/hero-bg-desktop@2x.jpg")`,
+            backgroundImage: `url(${process.env.PUBLIC_URL}"/images/homepage/hero-bg-desktop@2x.jpg")`,
+
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
             backgroundAttachment: "fixed",
