@@ -1,9 +1,9 @@
 {
-  "main.css": "/restaurant-app-react/static/css/main.58d6982c.chunk.css",
-  "main.js": "/restaurant-app-react/static/js/main.503ed0ac.chunk.js",
-  "main.js.map": "/restaurant-app-react/static/js/main.503ed0ac.chunk.js.map",
-  "static/js/1.23bd05b3.chunk.js": "/restaurant-app-react/static/js/1.23bd05b3.chunk.js",
-  "static/js/1.23bd05b3.chunk.js.map": "/restaurant-app-react/static/js/1.23bd05b3.chunk.js.map",
+  "main.css": "/restaurant-app-react/static/css/main.895d7fd5.chunk.css",
+  "main.js": "/restaurant-app-react/static/js/main.5ffcf0c6.chunk.js",
+  "main.js.map": "/restaurant-app-react/static/js/main.5ffcf0c6.chunk.js.map",
+  "static/js/1.1210c2a3.chunk.js": "/restaurant-app-react/static/js/1.1210c2a3.chunk.js",
+  "static/js/1.1210c2a3.chunk.js.map": "/restaurant-app-react/static/js/1.1210c2a3.chunk.js.map",
   "runtime~main.js": "/restaurant-app-react/static/js/runtime~main.2c764034.js",
   "runtime~main.js.map": "/restaurant-app-react/static/js/runtime~main.2c764034.js.map",
   "static/media/adjaruli.jpg": "/restaurant-app-react/static/media/adjaruli.a4e16522.jpg",
@@ -12,8 +12,8 @@
   "static/media/pkhali.jpg": "/restaurant-app-react/static/media/pkhali.6b0f332d.jpg",
   "static/media/chakapuli.jpg": "/restaurant-app-react/static/media/chakapuli.769f3d3b.jpg",
   "static/media/khinkali.jpg": "/restaurant-app-react/static/media/khinkali.4cfd371d.jpg",
-  "static/css/main.58d6982c.chunk.css.map": "/restaurant-app-react/static/css/main.58d6982c.chunk.css.map",
+  "static/css/main.895d7fd5.chunk.css.map": "/restaurant-app-react/static/css/main.895d7fd5.chunk.css.map",
   "index.html": "/restaurant-app-react/index.html",
-  "precache-manifest.613be94666e2775f73e5b6da2e7d888b.js": "/restaurant-app-react/precache-manifest.613be94666e2775f73e5b6da2e7d888b.js",
+  "precache-manifest.5c42bbba248f0f60950c6814e61070c2.js": "/restaurant-app-react/precache-manifest.5c42bbba248f0f60950c6814e61070c2.js",
   "service-worker.js": "/restaurant-app-react/service-worker.js"
 }
