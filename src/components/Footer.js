@@ -13,7 +13,7 @@ function Footer() {
       <div
         className="footer-top"
         style={{
-          backgroundImage: `url(${process.env.PUBLIC_URL}"images/homepage/ready-bg-desktop@2x.jpg")`,
+          backgroundImage: `url('${process.env.PUBLIC_URL}/images/homepage/ready-bg-desktop@2x.jpg')`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",
@@ -28,7 +28,7 @@ function Footer() {
       </div>
       <div className="footer-bottom">
         <div>
-          <img src={process.env.PUBLIC_URL + "logo.svg"} className="logo" />
+          <img src="logo.svg" className="logo" />
         </div>
         <div className="address">
           <p className="text-light">

@@ -5,7 +5,7 @@ import "../styles/Hero.css";
 function Hero() {
   return (
     <div className="hero">
-      <img src={process.env.PUBLIC_URL + "logo.svg"} className="logo" />
+      <img src="logo.svg" className="logo" />
       <div>
         <div className="hero-text-box">
           <h1 className="heading-primary">
