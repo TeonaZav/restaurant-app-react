@@ -6,22 +6,19 @@ function Events() {
   const images = [
     {
       name: "Family Gathering",
-      img:
-        "process.env.PUBLIC_URL + /images/homepage/family-gathering-desktop@2x.jpg",
+      img: "/images/homepage/family-gathering-desktop@2x.jpg",
       text:
         "We love catering for entire families. So please bring everyone along for a special meal with your loved ones. We’ll provide a memorable experience for all.",
     },
     {
       name: "Special Events",
-      img:
-        "process.env.PUBLIC_URL + /images/homepage/special-events-desktop@2x.jpg",
+      img: "/images/homepage/special-events-desktop@2x.jpg",
       text:
         "Whether it’s a romantic dinner or special date you’re celebrating with others we’ll look after you. We’ll be sure to mark your special date with an unforgettable meal.",
     },
     {
       name: "Social Events",
-      img:
-        "process.env.PUBLIC_URL + /images/homepage/social-events-desktop@2x.jpg",
+      img: "/images/homepage/social-events-desktop@2x.jpg",
       text:
         "Are you looking to have a larger social event? No problem! We’re more than happy to cater for big parties. We’ll work with you to make your event a hit with everyone.",
     },
@@ -38,7 +35,11 @@ function Events() {
         className="pattern-1"
       />
       <div className="event-img-ct">
-        <img src={selected.img} alt="" className="selected" />
+        <img
+          src={process.env.PUBLIC_URL + selected.img}
+          alt=""
+          className="selected"
+        />
       </div>
 
       <div className="event-text-box">

@@ -13,7 +13,7 @@ function Footer() {
       <div
         className="footer-top"
         style={{
-          backgroundImage: `url("process.env.PUBLIC_URL + images/homepage/ready-bg-desktop@2x.jpg")`,
+          backgroundImage: `url(${process.env.PUBLIC_URL}"images/homepage/ready-bg-desktop@2x.jpg")`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
           backgroundPosition: "center",

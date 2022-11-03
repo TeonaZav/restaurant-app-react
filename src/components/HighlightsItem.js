@@ -5,12 +5,12 @@ function HighlightsItem(props) {
       <div className="hilights-item-ct">
         <div className="image-wrap">
           <img
-            src={props.image}
+            src={process.env.PUBLIC_URL + props.image}
             alt="menu-item-img"
             className="menu-item-img"
           />
           <img
-            src="/images/patterns/pattern-divide.svg"
+            src={process.env.PUBLIC_URL + "/images/patterns/pattern-divide.svg"}
             alt="pattern"
             className="item-pattern"
           />
