@@ -1,0 +1,22 @@
+.footer {
+  display: block;
+  width: 100%;
+  background-color: #111111;
+  margin-top: 5rem;
+}
+.footer-top {
+  height: 24rem;
+  padding: 7.8rem 16.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-bottom {
+  text-transform: uppercase;
+  height: 24rem;
+  padding: 7.8rem 16.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

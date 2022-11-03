@@ -1,0 +1,23 @@
+.hero {
+  width: 100vw;
+  height: 75rem;
+  padding: 6.5rem 15%;
+  display: flex;
+  flex-direction: column;
+  z-index: 1000;
+}
+.logo {
+  width: 10.3rem;
+  height: 4rem;
+}
+.hero-text-box {
+  max-width: 44.5rem;
+  font-weight: 300;
+  margin-top: 14rem;
+}
+.hero-description {
+  font-size: 2.4rem;
+  color: #ffffff;
+  margin-bottom: 2.4rem;
+  margin-top: 2.4rem;
+}

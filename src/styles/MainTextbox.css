@@ -1,0 +1,9 @@
+.text-box-left {
+  margin-left: 15%;
+}
+.text-box-right {
+  margin-right: 15%;
+}
+.pattern-hidden {
+  visibility: hidden;
+}

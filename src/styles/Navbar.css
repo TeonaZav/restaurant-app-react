@@ -1,0 +1,72 @@
+.navbar {
+  width: 100%;
+  background: #f9d401;
+
+  z-index: 2000;
+  position: relative;
+}
+
+.navigation {
+  position: fixed;
+  left: 1.6rem;
+  height: 40%;
+  background: #f9d401;
+  width: 6%;
+  box-shadow: 1px 0 2px rgba(56, 66, 85, 0.5);
+  transition: 1s;
+  border-radius: 1.5rem 5.5rem;
+}
+
+.navigation:hover {
+  height: 95vh;
+}
+
+.navigation:hover nav {
+  transform: perspective(80vw) translateY(2vw) scaleY(1.2);
+}
+.navigation:hover nav ul li {
+  margin-bottom: 5rem;
+}
+.navigation img {
+  width: 15rem;
+  height: 5rem;
+  position: absolute;
+  top: 5%;
+}
+.navigation:hover img {
+  width: 20rem;
+  height: 7rem;
+  position: absolute;
+  top: 5%;
+}
+nav {
+  top: 30%;
+  left: 5%;
+  position: absolute;
+  transition: 0.5s;
+}
+
+nav ul {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  line-height: 2;
+  letter-spacing: 0.1em;
+  margin-bottom: 1rem;
+}
+
+nav ul li a {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+}
+nav ul li a:hover {
+  color: #17192b;
+}

@@ -1,0 +1,65 @@
+.events {
+  width: 100vw;
+  height: 92rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15%;
+  position: relative;
+}
+
+.event-img-ct {
+  max-width: 54rem;
+  height: 60rem;
+  box-shadow: 0 7.5rem 10rem -5rem rgba(56, 66, 85, 0.5);
+  z-index: 100;
+  transition: 300ms ease-in-out;
+}
+.selected {
+  display: block;
+  cursor: pointer;
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+}
+
+.events-list {
+  list-style-type: none;
+}
+.events-list li {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  line-height: 2rem;
+  color: #5c6779c5;
+  cursor: pointer;
+  letter-spacing: 1px;
+  position: relative;
+}
+.events-list li:hover,
+.events-list li:active {
+  color: #242b37;
+}
+.events-list li img {
+  position: absolute;
+  width: 10rem;
+  left: -12rem;
+  z-index: 90;
+}
+.event-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+}
+.events-btn-ct {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+.events .pattern-1 {
+  top: 0;
+  position: absolute;
+  z-index: 100;
+  left: -40%;
+}
