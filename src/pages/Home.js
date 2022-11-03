@@ -32,7 +32,10 @@ function Home() {
             <div className="step step-1">
               <div className="img-box img-box-1">
                 <img
-                  src="./images/homepage/enjoyable-place-desktop@2x.jpg"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/images/homepage/enjoyable-place-desktop@2x.jpg"
+                  }
                   className="step-img step-img-left"
                   alt="enjoyable-place"
                 />
@@ -47,7 +50,10 @@ function Home() {
                 textColor="t-main"
               />
               <img
-                src="./images/patterns/pattern-curve-top-right.svg"
+                src={
+                  process.env.PUBLIC_URL +
+                  "/images/patterns/pattern-curve-top-right.svg"
+                }
                 alt="pattern"
                 className="pattern-1"
               />
@@ -63,13 +69,19 @@ function Home() {
               />
               <div className="img-box img-box-2">
                 <img
-                  src="./images/homepage/locally-sourced-desktop@2x.jpg"
+                  src={
+                    process.env.PUBLIC_URL +
+                    "/images/homepage/locally-sourced-desktop@2x.jpg"
+                  }
                   className="step-img step-img-right"
                   alt="locally-sourced"
                 />
               </div>
               <img
-                src="./images/patterns/pattern-curve-top-left.svg"
+                src={
+                  process.env.PUBLIC_URL +
+                  "/images/patterns/pattern-curve-top-left.svg"
+                }
                 alt="pattern"
                 className="pattern-2"
               />
